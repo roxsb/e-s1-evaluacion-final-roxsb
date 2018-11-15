@@ -1,0 +1,28 @@
+footer{
+    background-color: $color-footer;
+    position: relative;
+.copy{
+    font-size: 14px;
+    color: $color-white;
+    font-family: $font-family-text;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 38px;
+    line-height: 30px;
+}  
+.heart{
+    font-size: 14px;
+    color: $color-white;
+    font-family: $font-family-text;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 30px;
+} 
+}
+.button--gotop{
+    position: absolute;
+    top: -15px;
+}
