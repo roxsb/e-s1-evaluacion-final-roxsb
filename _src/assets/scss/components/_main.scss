@@ -1,0 +1,34 @@
+main{
+    display:flex;
+    flex-flow:column;
+}
+h2{
+    font-family: $font-family-bigtext;
+    font-size: 24px;
+    color: $text-color;
+}
+.main--box{
+    margin: 0 auto;
+    width: 290px;
+}
+.main--description{
+    background-color: $color-white;
+}
+
+.p--tips{
+    font-family: $font-family-text;
+    font-size: 14px;
+    color: $main-color; 
+}
+.p--content{
+    font-family: $font-family-text;
+    font-size: 18px;
+    color: $text-light;
+}
+
+.main--detail{
+    background-color: $main-color;
+    h2{
+        text-align: center;
+    }
+}
