@@ -1,6 +1,9 @@
 @import 'core/settings';
 @import 'components/header';
 @import 'components/main';
-@import 'components/footer'
+@import 'components/footer';
 
 
+body{
+margin: 0;
+}
