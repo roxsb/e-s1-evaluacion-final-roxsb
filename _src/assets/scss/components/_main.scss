@@ -6,6 +6,8 @@ h2{
     font-family: $font-family-bigtext;
     font-size: 24px;
     color: $text-color;
+    text-transform: capitalize;
+    margin: 0;
 }
 .main--box{
     margin: 0 auto;
@@ -13,17 +15,23 @@ h2{
 }
 .main--description{
     background-color: $color-white;
+    padding-bottom: 45px;
+    
 }
 
 .p--tips{
     font-family: $font-family-text;
     font-size: 14px;
     color: $main-color; 
+    margin-top: 30px;
+    margin-bottom: 1px;
 }
 .p--content{
     font-family: $font-family-text;
     font-size: 18px;
     color: $text-light;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .main--detail{
@@ -31,4 +39,15 @@ h2{
     h2{
         text-align: center;
     }
+}
+.button-light{
+    height: 45px;
+    width: 76px;
+    background-color: $color-white;
+    border-radius: 22.5px;
+    border: solid 2px $button-color;
+    font-family: $font-family-text;
+    color: $button-color;
+    font-size: 20px;
+    font-weight: 500;
 }
