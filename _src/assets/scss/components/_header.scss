@@ -36,8 +36,15 @@
     width: 100%;
  }
  .button--open{
-    width: 100%;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 45px;
+    background-color: $color-white;
+    border-radius: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
       
  }
  .nav--box{
