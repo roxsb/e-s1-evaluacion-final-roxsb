@@ -64,9 +64,17 @@ h2{
     justify-items: center;
     p{
         margin:0;
+        line-height: 1.67;
+        font-family: $font-family-text;
+        font-size: 18px;
+        color: $text-color;
     }
     h3{
         margin:0;
+        font-family: $font-family-bigtext;
+        font-size: 18px;
+        color: $text-color;
+        line-height: 30px;
     }
     
 }
