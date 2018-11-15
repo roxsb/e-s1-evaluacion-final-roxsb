@@ -1,0 +1,84 @@
+main{
+    display:flex;
+    flex-flow:column;
+}
+h2{
+    font-family: $font-family-bigtext;
+    font-size: 24px;
+    color: $text-color;
+    text-transform: capitalize;
+    margin: 0;
+}
+.main--box{
+    margin: 0 auto;
+    width: 290px;
+}
+.main--description{
+    background-color: $color-white;
+    padding-bottom: 45px;
+    
+}
+
+.p--tips{
+    font-family: $font-family-text;
+    font-size: 14px;
+    color: $main-color; 
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+.p--content{
+    font-family: $font-family-text;
+    font-size: 18px;
+    color: $text-light;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.button-light{
+    height: 45px;
+    width: 76px;
+    background-color: $color-white;
+    border-radius: 22.5px;
+    border: solid 2px $button-color;
+    font-family: $font-family-text;
+    color: $button-color;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main--detail{
+    background-color: $color-ice;
+    padding-top: 30px;
+    h2{
+        text-align: center;
+    }
+}
+
+.reason--container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-items: center;
+    p{
+        margin:0;
+        line-height: 1.67;
+        font-family: $font-family-text;
+        font-size: 18px;
+        color: $text-color;
+    }
+    h3{
+        margin:0;
+        font-family: $font-family-bigtext;
+        font-size: 18px;
+        color: $text-color;
+        line-height: 30px;
+    }
+    
+}
+
+.reason{
+    width: 180px;
+}
