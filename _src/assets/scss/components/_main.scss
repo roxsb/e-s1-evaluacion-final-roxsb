@@ -34,12 +34,6 @@ h2{
     margin-bottom: 30px;
 }
 
-.main--detail{
-    background-color: $main-color;
-    h2{
-        text-align: center;
-    }
-}
 .button-light{
     height: 45px;
     width: 76px;
@@ -50,4 +44,33 @@ h2{
     color: $button-color;
     font-size: 20px;
     font-weight: 500;
+}
+
+.main--detail{
+    background-color: $color-ice;
+    padding-top: 30px;
+    h2{
+        text-align: center;
+    }
+}
+
+.reason--container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+    justify-items: center;
+    p{
+        margin:0;
+    }
+    h3{
+        margin:0;
+    }
+    
+}
+
+.reason{
+    width: 180px;
 }
