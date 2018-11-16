@@ -72,6 +72,7 @@
 // Media queris
 
 @media all and (min-width: 768px){
+    // header
 .hero{
     height: 768px; 
     position: relative;           
@@ -86,11 +87,25 @@
     margin-bottom: 20px;
     margin-top: 0;
 }
+.sentense--main{
+    font-size: 24px;
+}
 .link--open{
     margin-top:30px;
 }
 }
 @media all and (min-width: 1280px){
-
+    // header
     
+    .hero--content{
+        width: 730px;
+        bottom: 13px;
+    }
+    .title{
+        font-size: 100px;
+        line-height: 132px;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+          
     }
