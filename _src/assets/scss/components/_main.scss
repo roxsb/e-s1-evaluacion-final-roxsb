@@ -47,6 +47,7 @@ h2{
     text-decoration: none;
     text-align: center;
     line-height: 45px;
+    margin:0;
     
 }
 .link--go{
@@ -90,6 +91,17 @@ h2{
 }
 
 .reason{
-    width: 180px;
-    
+    width: 180px;   
+}
+.button-hard{
+background-color: $button-color;
+width: 184px;
+height: 45px;
+border-radius: 22.5px;
+color: $color-white;
+font-family: $font-family-text;
+font-size: 20px;
+border-style: none;
+margin-bottom: 60px;
+ 
 }
