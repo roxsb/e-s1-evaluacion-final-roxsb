@@ -108,3 +108,132 @@ margin-right: 68px;
 padding:0;
  
 }
+// Media queris
+@media all and (min-width: 768px){
+    // main
+.main--box{
+    margin: 0 auto;
+    width: 690px;
+    
+}
+.main--description{
+    padding-bottom: 60px;
+}
+.main--detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p--content{
+    font-size: 20px;
+    line-height: 30px;
+    padding:0;
+    
+}
+h2{
+    font-size: 26px; 
+    line-height: 45px;
+}
+.p--tips{
+    line-height: 30px;
+}
+.link-light{
+    width: 91px;
+}
+.reason{
+    width: 210px;   
+}
+
+.reason--container{
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 30px; 
+    p{
+        font-size: 18px;
+        margin-top: 14px;
+        
+    }
+    h3{
+        font-size: 24px;
+    } 
+}
+.button-hard{
+    width: 210px;
+    height: 45px; 
+    margin-left: 239px;
+    margin-right: 280px;   
+}
+// .button--top{
+//     display:flex;
+//     display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         margin-left: 239px;
+//         margin-right: 280px;   
+//     }
+}
+
+
+
+@media all and (min-width: 1280px){
+    // main
+    .main--box{
+        margin: 0 auto;
+        width: 730px;
+       
+    .main--description{
+        padding-bottom: 60px;
+    }
+
+    .main--detail{
+        .main--box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+    }
+    .p--content{
+        font-size: 20px;
+        line-height: 30px;
+        padding:0;
+        
+        // padding-right: 5px;
+    }
+    h2{
+        font-size: 32px; 
+        line-height: 45px;
+    }
+    .p--tips{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .link-light{
+        width: 160px;
+    }
+    .reason{
+        width: 210px;   
+    }
+    
+    .reason--container{
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-gap: 30px; 
+        p{
+            font-size: 18px;
+            margin-top: 14px;
+            
+        }
+        h3{
+            font-size: 24px;
+        } 
+    }
+    .button-hard{
+        width: 210px;
+        height: 45px; 
+           
+    }
+}
+
+
+}
+
