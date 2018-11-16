@@ -24,5 +24,16 @@ footer{
 }
 .button--gotop{
     position: absolute;
-    top: -15px;
+    width: 45px;
+    height: 45px;
+    background-color: $color-white;
+    border-radius: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform:translate(-50%,-50%); 
+}
+.heart--color{
+    color: $button-color;
 }
