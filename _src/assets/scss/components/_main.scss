@@ -34,7 +34,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.button-light{
+.link-light{
     height: 45px;
     width: 76px;
     background-color: $color-white;
@@ -44,6 +44,14 @@ h2{
     color: $button-color;
     font-size: 20px;
     font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    
+}
+.link--go{
+    text-decoration: none;
+
 }
 
 .main--detail{
