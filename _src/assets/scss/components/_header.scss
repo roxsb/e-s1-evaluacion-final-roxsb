@@ -65,7 +65,32 @@
 }
 .menu--button{
     margin:14px;
-    
-    
+ 
     
 }
+
+// Media queris
+
+@media all and (min-width: 768px){
+.hero{
+    height: 768px; 
+    position: relative;           
+    }
+.hero--content{
+    width: 690px;
+    bottom: 45px;
+}
+.title{
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.link--open{
+    margin-top:30px;
+}
+}
+@media all and (min-width: 1280px){
+
+    
+    }
