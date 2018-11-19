@@ -48,6 +48,12 @@ h2{
     text-align: center;
     line-height: 45px;
     margin:0;
+    &:hover{
+        border: solid 2px $main-color;
+        color: $main-color;
+        transition: ease 1s;
+        cursor: pointer;
+       } 
     
 }
 .link--go{
@@ -106,9 +112,10 @@ margin-bottom: 60px;
 margin-left: 53px;
 margin-right: 68px;
 padding:0;
-transition: ease 1s;
 &:hover{
     background-color:$main-color;
+    transition: ease 1s;
+    cursor: pointer;
    } 
  
 }
