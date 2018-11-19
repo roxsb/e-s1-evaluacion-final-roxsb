@@ -1,6 +1,7 @@
 footer{
     background-color: $button-color ;
     position: relative;
+}
 .copy{
     font-size: 14px;
     color: $color-white;
@@ -11,17 +12,20 @@ footer{
     padding-top: 38px;
     line-height: 30px;
 }  
+.footer--container{
+    height: 128px;
+}
 .heart{
     font-size: 14px;
     color: $color-white;
     font-family: $font-family-text;
     text-align: center;
-    padding-bottom: 30px;
+    
     margin-top: 0;
     margin-bottom: 0;
     line-height: 30px;
 } 
-}
+
 .button--gotop{
     position: absolute;
     width: 45px;
@@ -48,14 +52,17 @@ footer{
     justify-content: space-between;
     align-items: center;  
     margin-left:30px;
-    margin-right:30px;  
+    margin-right:30px; 
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    height: 128px;
 }
 .copy{
     margin: 0;
     padding: 0;
 }
 .heart{
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
+    padding-bottom: 0;
 }
 }

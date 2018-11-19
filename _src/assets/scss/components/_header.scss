@@ -44,8 +44,7 @@
     border-radius: 100%;
     text-align: center;
     display: flex;
-    justify-content: center;
-      
+    justify-content: center;        
  }
  .nav--box{
     background-color:#0271bc;
@@ -61,6 +60,7 @@
 .button--header{
     border-style: none;
     background:#0271bc;
+    cursor: pointer;
     
 }
 .menu--button{
@@ -74,7 +74,7 @@
 @media all and (min-width: 768px){
     // header
 .hero{
-    height: 768px; 
+    height: 100vh; 
     position: relative;           
     }
 .hero--content{

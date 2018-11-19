@@ -47,7 +47,15 @@ h2{
     text-decoration: none;
     text-align: center;
     line-height: 45px;
-    margin:0;   
+    margin:0;     
+    
+&:hover{
+    border: 2px solid $main-color;
+    color: $main-color;
+    transition: ease 1s;
+    
+   } 
+  
 }
 .link--go{
     text-decoration: none;
@@ -104,9 +112,11 @@ margin-bottom: 60px;
 margin-left: 53px;
 margin-right: 68px;
 padding:0;
-transition: ease 1s;
+
 &:hover{
     background-color:$main-color;
+    cursor: pointer;
+    transition: ease 1s;
    } 
  
 }
