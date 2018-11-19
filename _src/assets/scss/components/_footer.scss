@@ -1,5 +1,5 @@
 footer{
-    background-color: $color-footer;
+    background-color: $button-color ;
     position: relative;
 .copy{
     font-size: 14px;
@@ -35,5 +35,27 @@ footer{
     transform:translate(-50%,-50%); 
 }
 .heart--color{
-    color:$button-color;
+    color:$color-white;
+}
+
+@media all and (min-width: 768px){
+
+footer{
+    background-color: $text-color;
+}
+.footer--container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-left:30px;
+    margin-right:30px;  
+}
+.copy{
+    margin: 0;
+    padding: 0;
+}
+.heart{
+    margin: 0;
+    padding: 0;
+}
 }
