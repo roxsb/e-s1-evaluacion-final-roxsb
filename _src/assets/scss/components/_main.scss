@@ -1,8 +1,8 @@
-main{
+.main{
     display:flex;
     flex-flow:column;
 }
-h2{
+.title2{
     font-family: $font-family-bigtext;
     font-size: 24px;
     color: $text-color;
@@ -64,7 +64,7 @@ h2{
 .main--detail{
     background-color: $color-ice;
     padding-top: 30px;
-    h2{
+    .title2{
         text-align: center;
     }
 }
@@ -86,7 +86,7 @@ h2{
         font-size: 18px;
         color: $text-color;
     }
-    h3{
+    .title3{
         margin:0;
         font-family: $font-family-bigtext;
         font-size: 18px;
@@ -142,7 +142,7 @@ padding:0;
     padding:0;
     
 }
-h2{
+.title2{
     font-size: 26px; 
     line-height: 45px;
 }
@@ -164,7 +164,7 @@ h2{
         margin-top: 14px;
         
     }
-    h3{
+    .title3{
         font-size: 24px;
     } 
 }
@@ -174,15 +174,6 @@ h2{
     margin-left: 239px;
     margin-right: 280px;   
 }
-// .button--top{
-//     display:flex;
-//     display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//         margin-left: 239px;
-//         margin-right: 280px;   
-//     }
 }
 
 
@@ -211,7 +202,7 @@ h2{
         
         // padding-right: 5px;
     }
-    h2{
+    .title2{
         font-size: 32px; 
         line-height: 45px;
     }
@@ -234,14 +225,13 @@ h2{
             margin-top: 14px;
             
         }
-        h3{
+        .title3{
             font-size: 24px;
         } 
     }
     .button-hard{
         width: 210px;
-        height: 45px; 
-           
+        height: 45px;            
     }
 }
 
